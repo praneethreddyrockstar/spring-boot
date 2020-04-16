@@ -1,0 +1,13 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: PAYMENT-SERVICE
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: system
+    password: system
+  jpa:
+    hibernate:
+      ddl-auto: update
